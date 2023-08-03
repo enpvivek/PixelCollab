@@ -24,10 +24,7 @@ const authRouter = require("./routes/auth");
 
 const { colorValidator } = require("./utils/common");
 
-const frontendURL =
-  process.env.NODE_ENV === "development"
-    ? "http://localhost:3000"
-    : "https://art98.vercel.app";
+const frontendURL = process.env.FRONTEND_URL;
 const corsOptions = {
   origin: frontendURL,
   credentials: true,

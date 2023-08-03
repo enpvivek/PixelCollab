@@ -48,7 +48,7 @@ export default function HomePage({ loginHandler }: pageProps) {
           <Anchor
             fw={800}
             fz={"xs"}
-            href="https://github.com/creme332/art98/issues"
+            href="https://github.com/enpvivek/PixelCollab/issues"
           >
             {`Github.`}
           </Anchor>
